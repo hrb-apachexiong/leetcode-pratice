@@ -67,9 +67,9 @@ public class ReadBinnaryWatch401 {
         }
         // check minute是否超过59
         if (track.size() == tabsize - 1 && num == 1) {
-            if(track.get(tabsize - 2) == 1
-            && track.get(tabsize -3) == 1
-            && track.get(tabsize -4) == 1){
+            if (track.get(tabsize - 2) == 1
+                    && track.get(tabsize - 3) == 1
+                    && track.get(tabsize - 4) == 1) {
                 return false;
             }
         }
